@@ -1,0 +1,151 @@
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(./mountains_fog_snow_168215_1920x1080.jpg);
+    height: 93.5vh;
+    color: whitesmoke;
+    background-size: cover;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.a1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    position: relative;
+    top: 200px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.a2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 170px;
+}
+
+.a3 {
+    color: antiquewhite;
+}
+
+.a {
+    height: 250px;
+    clip-path: circle();
+    margin-top: 0 !important;
+}
+
+.a9 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgb(123, 77, 16) !important;
+    text-align: center!important;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+}
+
+.my-5 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.a5 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+/* .p-5{
+    padding: 2rem!important;
+} */
+.b1{
+    height: 30;
+}
+.d1{
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.a6 >h1{
+    font-size: 4rem;
+    font-weight: 1000;
+    color: rgb(123, 77, 16) !important;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+.b2{
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+.a7{
+    width: 300px;
+    height: 250px;
+    clip-path: circle();
+    /* padding: 20px!important; */
+    margin-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.a8{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+}
+/* .x{
+    padding-left: 0!important;
+}
+.x1{
+    padding-left: 0!important;
+} */
+.contact-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 400px;
+    margin: 30px;
+}
+.bg-body-tertiary{
+        --bs-bg-opacity: 0;
+        background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+        font-family: 'Poppins', sans-serif;
+        text-align: left;
+}
+.text-body-emphasis{
+    color: rgb(123, 77, 16) !important;
+    text-align: left;
+}
+.lead{
+    text-align: left!important;
+}
+.row{
+    background-color: rgb(250, 245, 239);
+}
+@media(max-width: 993px) {
+    .a1 {
+        font-size: 4rem;
+        font-weight: bold;
+        position: relative;
+        top: 130px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    .a2 {
+        font-size: 2rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 110px;
+    }
+}
+
+@media(max-width: 545px) {
+    .bg-image {
+        height: 150vh;
+    }
+
+    .a {
+        height: 200px;
+        clip-path: circle();
+        margin-top: 0 !important;
+    }
+}
+
+@media(max-height: 375px) {
+    .bg-image {
+        height: 150vh;
+    }
+}

@@ -1,0 +1,39 @@
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  text-align: center;
+  color: #fff; /* Text color */
+}
+
+.image-text h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.image-text p {
+  font-size: 16px;
+  margin: 8px 0 0 0;
+}
+
+/* Responsive behavior */
+@media screen and (max-width: 768px) {
+  .image-text {
+    font-size: 16px;
+  }
+  
+  .image-text h2 {
+    font-size: 20px;
+  }
+  
+  .image-text p {
+    font-size: 14px;
+  }
+}
+
+  
